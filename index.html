@@ -18,7 +18,7 @@
 <body>
     <section class="hero"><img src="/img/logo.png" alt=""></section>
     <section>
-        <h2>Project Whitepaper</h2>
+        <h2 class="center">$CET Whitepaper</h2>
         <p class="gray-text">Последняя неделя, станет важным моментом в истории крипты, не только, потому-что сегодня
             произошел листинг <strong>NotCoin</strong>.
             А также, потому-что, наша команда начинает переписывать правила игры, новым подходом к обмену крипты на
@@ -74,6 +74,44 @@
             <li>Максимальное время с начала пресейла, до листинга токена 2 недели</li>
         </ul>
     </section>
+    <section>
+        <h3>TONs from presale distribution:</h3>
+        <p class="white-text"><strong>51%</strong> Liquidity pool</p>
+        <p class="white-text">49% reserved for company costs, including:
+        <ul class="gray-list">
+            <li>Marketing and advertising expenses</li>
+            <li>Project coding and salaries payments</li>
+            <li>Legal expenses related to company establishment</li>
+            <li> Infrastructure, servers, certificate’s</li>
+            <li>Domain purchases</li>
+            <li>Ensuring exchanger liquidity</li>
+            <li>Conducting security audits</li>
+            <li>Any surplus funds will be returned to token holders in the form of dividends</li>
+        </ul>
+        </p>
+
+        <div class="send-button-block">
+            <div class="send-button-content">
+                <div class="send-button-title">$CET Presale</div>
+                <div class="copy-area"> UQADCJFPANJQ7arngpzpYYC7t727CI...
+                    <a href="#" onclick="copy()"><img src="/img/copy.png" alt=""></a>
+                </div>
+            </div>
+            <a target="_blank" href="ton://transfer/UQADCJFPANJQ7arngpzpYYC7t727CIjMPEEHmtgwKUDceRO7"><button
+                    class="send-button">Отправить крипту</button></a>
+        </div>
+    </section>
+
+    <script>
+        function copy() {
+            event.preventDefault();
+            navigator.clipboard.writeText('UQADCJFPANJQ7arngpzpYYC7t727CIjMPEEHmtgwKUDceRO7').then(function () {
+                alert('Кошелек успешно скопирован в буфер обмена');
+            }, function (err) {
+                console.error('Произошла ошибка при копировании текста: ', err);
+            });
+        }
+    </script>
 </body>
 
 </html>
