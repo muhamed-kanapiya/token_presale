@@ -88,6 +88,25 @@ h2 {
   color: #00a25e;
 }
 
+.dark-green-item::marker {
+  color: #035432;
+}
+
 .blue-item::marker {
   color: #0053f3;
+}
+
+.dark-blue-item::marker {
+  color: #032c7c;
+}
+
+.purple-item::marker {
+  color: #aa01e6;
+}
+
+.gray-list {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.8);
 }
