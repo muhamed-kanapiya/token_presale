@@ -14,7 +14,7 @@ body {
 }
 
 section {
-  padding: 13px;
+  padding: 9px;
 }
 
 h2 {
@@ -30,6 +30,7 @@ h3 {
   font-weight: 700;
   font-size: 14px;
   color: #fff;
+  line-height: 120%;
 }
 
 a {
@@ -80,8 +81,21 @@ ol li {
 #tokenomika {
   background-image: url("img/tokenomika_bg.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position-x: right;
+}
+
+.tokenomika-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
+  border-radius: 15px;
+  width: 249px;
+  height: 75px;
+  backdrop-filter: blur(9.100000381469727px);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .benefits {
@@ -89,37 +103,14 @@ ol li {
   overflow: hidden;
 }
 
-.blue-line {
+.benefitbg {
   position: absolute;
-  top: 35%;
-  left: -140px;
-  z-index: -1;
-  background: #0053f3;
-  height: 24px;
-  width: 200%;
-  transform: rotate(21deg);
-}
-
-.green-line {
-  position: absolute;
-  bottom: 30px;
-  right: -140px;
-  z-index: -1;
-  background: #00a25e;
-  height: 24px;
-  width: 200%;
-  transform: rotate(347deg);
-}
-
-.fry {
-  position: absolute;
-  top: 50%;
+  top: 25%;
   left: 0;
-  z-index: -2;
-  height: 333px;
-  width: 530px;
-  background: url(/img/shutupandtakemymoney\ 2.svg) no-repeat;
-  background-size: auto;
+  z-index: -1;
+  background: url("/img/benefitbg.svg") no-repeat;
+  width: 607px;
+  height: 795px;
 }
 
 .card {
@@ -130,38 +121,6 @@ ol li {
   background: rgba(0, 0, 0, 0.2);
   margin-top: 40px;
   margin-bottom: 40px;
-}
-
-.tokenomika-list {
-  font-family: var(--second-family);
-  font-weight: 400;
-  font-size: 10px;
-  color: #fff;
-  margin-top: 42px;
-}
-
-.tokenomika-list li {
-  margin-bottom: 14px;
-}
-
-.green-item::marker {
-  color: #00a25e;
-}
-
-.dark-green-item::marker {
-  color: #035432;
-}
-
-.blue-item::marker {
-  color: #0053f3;
-}
-
-.dark-blue-item::marker {
-  color: #032c7c;
-}
-
-.purple-item::marker {
-  color: #aa01e6;
 }
 
 .gray-list {
@@ -375,7 +334,7 @@ ol li {
   z-index: -2;
   margin-top: -65px;
   margin-bottom: -50px;
-  background: url("img/Galaxy\ Note\ 20\ Ultra.svg") no-repeat;
+  background: url("img/Galaxy\ Note\ 20\ Ultra.png") no-repeat;
   height: 467px;
   width: 743px;
 }
@@ -709,4 +668,73 @@ ol li {
   font-size: 14px;
   line-height: 120%;
   color: #fff;
+}
+
+.ref-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 115%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.hero1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 120%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.hero2 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 115%;
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.hero3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 94px;
+}
+
+.distribution1 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: #fff;
+}
+
+.distribution2 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: -10px;
+}
+
+.cookies-text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: right;
+}
+
+.tokenomika-list {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.problems ol {
+  list-style: none;
 }
