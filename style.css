@@ -1,0 +1,43 @@
+:root {
+  --font-family: "Roboto Mono", sans-serif;
+  --second-family: "JetBrains Mono", sans-serif;
+  --third-family: "Inter", sans-serif;
+  --font3: "Poppins", sans-serif;
+  --font4: "Arial", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+}
+
+section {
+  padding: 13px;
+}
+
+h2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  height: 100vh;
+}
+
+.gray-text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: rgba(255, 255, 255, 0.8);
+}
