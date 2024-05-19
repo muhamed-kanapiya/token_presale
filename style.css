@@ -32,6 +32,11 @@ h3 {
   color: #fff;
 }
 
+a {
+  color: #0053f3;
+  text-decoration: none;
+}
+
 ul,
 ol {
   list-style-position: inside;
@@ -406,6 +411,7 @@ ol li {
   border-radius: 100%;
   background: #0af;
   filter: blur(613.6090087890625px);
+  z-index: -2;
 }
 
 .ref-title {
@@ -448,6 +454,7 @@ ol li {
   white-space: nowrap;
   font-size: 0;
   cursor: pointer;
+  margin-bottom: 34px;
 
   &.active {
     cursor: grab;
@@ -493,6 +500,87 @@ ol li {
     font-size: 12px;
     color: #fff;
     opacity: 0.8;
-    width: 158px;
   }
+}
+
+.we-did {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.we-did img {
+  margin-right: -90px;
+  width: 281px;
+}
+
+.done {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  backdrop-filter: blur(30px);
+  background: rgba(0, 0, 0, 0.2);
+  padding: 11px 14px;
+}
+
+.done ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.roadmap ul {
+  padding-top: 50px;
+  padding-left: 82px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 115%;
+  color: #fff;
+}
+
+.roadmap-content {
+  position: relative;
+}
+
+.timeline {
+  position: absolute;
+  top: 0;
+  left: 41px;
+  border-radius: 3px;
+  width: 3px;
+  height: 105%;
+  background: #faf9f9;
+}
+.timeline-end {
+  position: absolute;
+  background: url("img/timeline-end.svg");
+  width: 25px;
+  height: 25px;
+  left: 29px;
+}
+
+.quarter {
+  position: relative;
+}
+
+.qnum {
+  position: absolute;
+  left: 15px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  background: #000;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
