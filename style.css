@@ -22,6 +22,7 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   color: #fff;
+  margin-bottom: 14px;
 }
 
 .hero {
@@ -40,4 +41,12 @@ h2 {
   font-size: 14px;
   line-height: 120%;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.second-text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 115%;
+  color: #fff;
 }
