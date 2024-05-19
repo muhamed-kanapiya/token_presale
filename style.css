@@ -52,16 +52,6 @@ ol li {
   margin-bottom: 14px;
 }
 
-.hero {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: stretch;
-  height: 100vh;
-}
-
 .gray-text {
   font-family: var(--second-family);
   font-weight: 400;
@@ -101,7 +91,7 @@ ol li {
 
 .blue-line {
   position: absolute;
-  top: 45%;
+  top: 35%;
   left: -140px;
   z-index: -1;
   background: #0053f3;
@@ -112,13 +102,13 @@ ol li {
 
 .green-line {
   position: absolute;
-  bottom: 0;
+  bottom: 30px;
   right: -140px;
   z-index: -1;
   background: #00a25e;
   height: 24px;
   width: 200%;
-  transform: rotate(-21deg);
+  transform: rotate(347deg);
 }
 
 .fry {
@@ -126,24 +116,16 @@ ol li {
   top: 50%;
   left: 0;
   z-index: -2;
-  height: 401px;
-  width: 548px;
-  background: url(/img/shutupandtakemymoney.jpg) no-repeat;
+  height: 333px;
+  width: 530px;
+  background: url(/img/shutupandtakemymoney\ 2.svg) no-repeat;
   background-size: auto;
-  transform: rotate(16deg);
-}
-
-.distribution-title {
-  background-image: url("img/distribution-line.svg");
-  background-repeat: no-repeat;
-  background-position-x: right;
-  margin-right: unset;
 }
 
 .card {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  padding: 33px;
+  padding: 12px 18px;
   backdrop-filter: blur(9.100000381469727px);
   background: rgba(0, 0, 0, 0.2);
   margin-top: 40px;
@@ -153,9 +135,13 @@ ol li {
 .tokenomika-list {
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 10px;
   color: #fff;
   margin-top: 42px;
+}
+
+.tokenomika-list li {
+  margin-bottom: 14px;
 }
 
 .green-item::marker {
@@ -263,14 +249,18 @@ ol li {
   left: -50px;
 }
 
-.orange {
-  color: #f38300;
-}
-
 .filosofiya {
   position: relative;
   margin-top: 80px;
   margin-bottom: 80px;
+
+  p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #fff;
+  }
 }
 
 .coin1 {
@@ -287,7 +277,7 @@ ol li {
 
 .full {
   width: 100%;
-  padding: 0 -13px 0 -13px;
+  padding: unset;
 }
 
 .problem-item {
@@ -349,6 +339,16 @@ ol li {
   padding-left: 50px;
   position: relative;
 }
+.solution {
+  overflow: hidden;
+}
+.solution-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
+}
 
 .solution-title::before {
   position: absolute;
@@ -375,6 +375,9 @@ ol li {
   z-index: -2;
   margin-top: -65px;
   margin-bottom: -50px;
+  background: url("img/Galaxy\ Note\ 20\ Ultra.svg") no-repeat;
+  height: 467px;
+  width: 743px;
 }
 
 .solution-block {
@@ -400,6 +403,7 @@ ol li {
 
 .referal {
   position: relative;
+  overflow-x: hidden;
 }
 
 .blue-circle {
@@ -641,4 +645,68 @@ ol li {
   background: #0053f3;
   margin-top: 14px;
   margin-bottom: 22px;
+}
+
+.white-p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
+}
+
+.image-top {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
+  padding: 21px 24px;
+}
+
+.meme-block {
+  border-radius: 10px;
+  background: #1c1c1e;
+}
+
+.image-bottom {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 115%;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 21px 24px;
+}
+
+.meme-container {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.problem-descr {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.after-problems {
+  margin-top: 30px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
+}
+
+.ref-subtitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
 }
