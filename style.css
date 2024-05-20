@@ -347,7 +347,7 @@ ol li {
   font-size: 10px;
   line-height: 115%;
   color: rgba(255, 255, 255, 0.8);
-  padding: 22px;
+  padding: 20px;
   z-index: 50;
   margin-bottom: 14px;
 }
@@ -467,13 +467,12 @@ ol li {
 }
 
 .we-did {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: flex-end;
   margin-bottom: 30px;
+  position: relative;
+}
+
+.we-did-image-area {
+  position: absolute;
 }
 
 .we-did img {
@@ -487,6 +486,7 @@ ol li {
   backdrop-filter: blur(30px);
   background: rgba(0, 0, 0, 0.2);
   padding: 11px 14px;
+  margin-left: 35%;
 }
 
 .done ul {
@@ -746,4 +746,8 @@ ol li {
   line-height: 115%;
   color: #fff;
   margin-top: 47px;
+}
+
+.quote {
+  padding-left: 45px;
 }
