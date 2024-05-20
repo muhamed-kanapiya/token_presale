@@ -105,7 +105,7 @@ ol li {
 
 .benefitbg {
   position: absolute;
-  top: 25%;
+  top: 29%;
   left: 0;
   z-index: -1;
   background: url("/img/benefitbg.svg") no-repeat;
@@ -247,7 +247,7 @@ ol li {
   justify-content: flex-start;
   align-items: flex-start;
   align-content: stretch;
-  column-gap: 2px;
+  column-gap: 5px;
   border-radius: 0 2px 2px 0;
   border-top: 3px solid #fff;
   padding: 19px 0 13px 0;
@@ -288,7 +288,7 @@ ol li {
 
 .problem-text {
   font-family: var(--font-family);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 120%;
   color: #fff;
@@ -335,8 +335,8 @@ ol li {
   margin-top: -65px;
   margin-bottom: -50px;
   background: url("img/Galaxy\ Note\ 20\ Ultra.png") no-repeat;
-  height: 467px;
-  width: 743px;
+  height: 487px;
+  width: 753px;
 }
 
 .solution-block {
@@ -634,7 +634,7 @@ ol li {
   font-size: 10px;
   line-height: 115%;
   color: rgba(255, 255, 255, 0.8);
-  padding: 21px 24px;
+  padding: 14px 24px 21px 24px;
 }
 
 .meme-container {
@@ -737,4 +737,13 @@ ol li {
 
 .problems ol {
   list-style: none;
+}
+
+.solution-text3 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 115%;
+  color: #fff;
+  margin-top: 47px;
 }
