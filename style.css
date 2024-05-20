@@ -95,6 +95,7 @@ ol li {
   width: 249px;
   height: 75px;
   backdrop-filter: blur(9.100000381469727px);
+  -webkit-backdrop-filter: blur(9.100000381469727px);
   background: rgba(0, 0, 0, 0.2);
 }
 
@@ -118,6 +119,7 @@ ol li {
   border-radius: 10px;
   padding: 12px 18px;
   backdrop-filter: blur(9.100000381469727px);
+  -webkit-backdrop-filter: blur(9.100000381469727px);
   background: rgba(0, 0, 0, 0.2);
   margin-top: 40px;
   margin-bottom: 40px;
@@ -186,6 +188,7 @@ ol li {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
   background: rgba(0, 0, 0, 0.2);
   padding: 29px 25px;
   margin-left: 48px;
@@ -327,6 +330,7 @@ ol li {
   height: 411px;
   background: #fff;
   filter: blur(613.6090087890625px);
+  -webkit-filter: blur(613.6090087890625px);
   z-index: -2;
 }
 
@@ -374,6 +378,7 @@ ol li {
   border-radius: 100%;
   background: #0af;
   filter: blur(613.6090087890625px);
+  -webkit-filter: blur(613.6090087890625px);
   z-index: -2;
 }
 
@@ -484,6 +489,7 @@ ol li {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 12px;
   backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
   background: rgba(0, 0, 0, 0.2);
   padding: 11px 14px;
   margin-left: 35%;
@@ -751,3 +757,7 @@ ol li {
 .quote {
   padding-left: 45px;
 }
+
+/* * {
+  outline: 1px solid red;
+} */
