@@ -94,8 +94,8 @@ ol li {
   border-radius: 15px;
   width: 249px;
   height: 75px;
-  backdrop-filter: blur(9.100000381469727px);
-  -webkit-backdrop-filter: blur(9.100000381469727px);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   background: rgba(0, 0, 0, 0.2);
 }
 
@@ -106,7 +106,7 @@ ol li {
 
 .benefitbg {
   position: absolute;
-  top: 29%;
+  top: 31%;
   left: 0;
   z-index: -1;
   background: url("/img/benefitbg.svg") no-repeat;
@@ -187,8 +187,8 @@ ol li {
 .benefits-item {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   background: rgba(0, 0, 0, 0.2);
   padding: 29px 25px;
   margin-left: 48px;
@@ -302,7 +302,7 @@ ol li {
   position: relative;
 }
 .solution {
-  overflow: hidden;
+  overflow-x: clip;
 }
 .solution-text {
   font-family: var(--font-family);
@@ -324,6 +324,7 @@ ol li {
 
 .solution-title::after {
   position: absolute;
+  top: 70px;
   right: 0;
   content: "";
   width: 467px;
@@ -338,9 +339,13 @@ ol li {
   z-index: -2;
   margin-top: -65px;
   margin-bottom: -50px;
-  background: url("img/Galaxy\ Note\ 20\ Ultra.png") no-repeat;
+  background: url(img/Galaxy Note 20 Ultra CET.svg) no-repeat;
+  background-size: 753px 487px;
   height: 487px;
   width: 753px;
+  position: relative;
+  left: -150px;
+  top: -10px;
 }
 
 .solution-block {
@@ -369,9 +374,13 @@ ol li {
   overflow-x: hidden;
 }
 
+.ref-iphone {
+  margin-bottom: 35px;
+}
+
 .blue-circle {
   position: absolute;
-  top: 20px;
+  top: 60px;
   left: 0;
   width: 400px;
   height: 400px;
@@ -379,6 +388,7 @@ ol li {
   background: #0af;
   filter: blur(613.6090087890625px);
   -webkit-filter: blur(613.6090087890625px);
+  background: url("img/Ellipse\ 2.svg");
   z-index: -2;
 }
 
@@ -488,8 +498,8 @@ ol li {
 .done {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 12px;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   background: rgba(0, 0, 0, 0.2);
   padding: 11px 14px;
   margin-left: 35%;
@@ -755,7 +765,10 @@ ol li {
 }
 
 .quote {
-  padding-left: 45px;
+  border-radius: 10px;
+  background: rgba(0, 83, 243, 0.2);
+  border-left: 21px solid #0053f3;
+  padding: 4px 0px 4px 21px;
 }
 
 .sucess-descr {
@@ -798,6 +811,14 @@ ol li {
   line-height: 115%;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 30px;
+}
+
+.market-subtitle {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
 }
 
 /* * {
