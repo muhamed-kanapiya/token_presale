@@ -107,7 +107,7 @@ ol li {
 .benefitbg {
   position: absolute;
   top: 21%;
-  left: -5px;
+  left: 0;
   z-index: -1;
   background: url("/img/benefitbg.svg") no-repeat;
   width: 607px;
